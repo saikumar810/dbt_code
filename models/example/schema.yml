@@ -1,7 +1,7 @@
 version: 2
 sources:
     - name: datafeeder
-      databse: "{{(test)}}"
+      databse: "{{('test')}}"
       scema: raw_schema
       tables:
         Generate model
