@@ -1,8 +1,8 @@
 version: 2
 sources:
     - name: datafeed_shared_schema
-      database: "{{('sales')}}"
-      schema: raw_schema
+      database: "{{('test')}}"
+      schema: raw_public
       tables:
-        - name: stg_customerdata
+        - name: stg_customer
 
