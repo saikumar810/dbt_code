@@ -1,9 +1,8 @@
 version: 2
 sources:
     - name: datafeeder
-      databse: "{{('test')}}"
+      database: "{{('test')}}"
       scema: raw_schema
       tables:
-        Generate model
         - name: stg_customerdata
 
