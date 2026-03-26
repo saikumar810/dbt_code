@@ -1,8 +1,9 @@
 version: 2
 sources:
-    - name: datafeed_shared_schema
-      database: "{{('test')}}"
-      schema: raw_public
+    - name: datafeeder
+      databse: "{{(test)}}"
+      scema: raw_schema
       tables:
-        - name: stg_customer
+        Generate model
+        - name: stg_customerdata
 
