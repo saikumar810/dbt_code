@@ -4,5 +4,9 @@ sources:
       database: "{{('test')}}"
       schema: raw_schema
       tables:
-        - name: stg_customerdata
+        - name: raw_customerdata
+        - name: raw_orders
+        
+
+
       
