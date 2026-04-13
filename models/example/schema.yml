@@ -5,7 +5,20 @@ sources:
       schema: raw_schema
       tables:
         - name: raw_customerdata
+        - name: employees_raw
+        - name: raw_customers
+        - name: raw_products
         - name: raw_orders
+          columns:
+           - name: id
+             tests:
+               - unique
+               - not_null
+           - name: status
+             tests:
+              - accepted_values:
+                 values: ['placed','shipped','completed','returned','return_pending']
+
         
 
 

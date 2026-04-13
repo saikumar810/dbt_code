@@ -1,7 +1,7 @@
 {{ config(materialized = 'table') }}
 with tb1 as(
     select
-    id,
+    id as order_id,
     user_id,
     order_date,
     status
